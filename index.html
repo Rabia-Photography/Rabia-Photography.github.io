@@ -165,27 +165,38 @@
 							<p>
 								You may contact me via the following mediums if you wish to make any bookings :) .
 							</p>
-							<form class="booking-form" id="myForm" action="contact.php">
-								 	<div class="row">
-								 		<div class="col-lg-12 d-flex flex-column">
-							 				<p>Whatsapp : 083 951 1079</p>
-								 		</div>
-							 			<div class="col-lg-12 d-flex flex-column">
-											<p>Email : RBPhotography.cpt@gmail.com</p>
-										</div>									
-										<div class="col-lg-12 d-flex flex-column">
-											<p>Any of the following Social Media :</p>
-											<a href="https://m.facebook.com/RBPhotography.cpt/"> <img src="img/facebook.png"></a>
-											<a href="https://www.instagram.com/rbphotography.cpt/?hl=en"> <img src="img/instagram.png"></a>
-										</div>
-										
-										<div class="col-lg-12 d-flex justify-content-end send-btn">
-											
-										</div>
-
-										<div class="alert-msg"></div>		
+							 	<div class="row">
+							 		<div class="col-lg-12 d-flex flex-column">
+						 				<p>Whatsapp : 083 951 1079</p>
+							 		</div>
+						 			<div class="col-lg-12 d-flex flex-column">
+										<p>Email : RBPhotography.cpt@gmail.com</p>
+									</div>									
+									<div class="col-lg-12 d-flex flex-column">
+										<p>Any of the following Social Media :</p>
+										<a href="https://m.facebook.com/RBPhotography.cpt/"> <img src="img/facebook.png"></a>
+										<a href="https://www.instagram.com/rbphotography.cpt/?hl=en"> <img src="img/instagram.png"></a>
 									</div>
-					  		</form>
+									<form class="booking-form" id="myForm" action="contact.php">
+									 	<div class="row">
+									 		<div class="col-lg-12 d-flex flex-column">
+								 				<input id="FontBlack" name="name" placeholder="Your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'" class="form-control mt-20" required="" type="text" required>
+									 		</div>
+								 			<div class="col-lg-12 d-flex flex-column">
+												<input id="FontBlack" name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mt-10" required="" type="email">
+											</div>									
+											<div class="col-lg-12 flex-column">
+												<textarea id="FontBlack" class="form-control mt-20" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+											</div>
+											
+											<div class="col-lg-12 d-flex justify-content-end send-btn">
+												<button class="submit-btn primary-btn mt-20 text-uppercase ">Send!<span class="lnr lnr-arrow-right"></span></button>
+											</div>
+
+											<div class="alert-msg"></div>		
+										</div>
+					  				</form>
+								</div>
 							</div>
 						</div>						
 					</div>
