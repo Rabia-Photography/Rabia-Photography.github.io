@@ -177,20 +177,20 @@
 										<a href="https://m.facebook.com/RBPhotography.cpt/"> <img src="img/facebook.png"></a>
 										<a href="https://www.instagram.com/rbphotography.cpt/?hl=en"> <img src="img/instagram.png"></a>
 									</div>
-									<form class="booking-form" id="myForm" action="contact.php">
+									<form name="contactform" method="post" action="contact.php">
 									 	<div class="row">
 									 		<div class="col-lg-12 d-flex flex-column">
-								 				<input id="FontBlack" name="name" placeholder="Your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'" class="form-control mt-20" required="" type="text" required>
+								 				<input id="FontBlack" name="first_name" placeholder="Your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'" class="form-control mt-20" required="" type="text" required>
 									 		</div>
 								 			<div class="col-lg-12 d-flex flex-column">
 												<input id="FontBlack" name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mt-10" required="" type="email">
 											</div>									
 											<div class="col-lg-12 flex-column">
-												<textarea id="FontBlack" class="form-control mt-20" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+												<textarea id="FontBlack" class="form-control mt-20" name="comments" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
 											</div>
 											
 											<div class="col-lg-12 d-flex justify-content-end send-btn">
-												<button class="submit-btn primary-btn mt-20 text-uppercase ">Send!<span class="lnr lnr-arrow-right"></span></button>
+												<button value="Submit" class="submit-btn primary-btn mt-20 text-uppercase ">Send!<span class="lnr lnr-arrow-right"></span></button>
 											</div>
 
 											<div class="alert-msg"></div>		
